@@ -1,2 +1,0 @@
-# hyeonsupark.github.io
-yeah
