@@ -1,9 +1,25 @@
-html {
-	font-family: 'Ubuntu', sans-serif;
-	padding: 0 50px;
-	line-height: 1.3;
-}
+* {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.3; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+  body .content {
+    padding-right: 200px; }
+  body #side-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    z-index: 100; }
 
 li {
-	font-size: 1.1em;
-}
+  font-size: 1.1em; }
+
+/*# sourceMappingURL=app.css.map */
