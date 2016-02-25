@@ -1,0 +1,28 @@
+* {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.3;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	.content {
+		padding-right: 200px;
+	}
+
+	#side-bar {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 200px;
+		height: 100%;
+		background-color: #fff;
+		text-align: center;
+		z-index: 100;
+	}
+}
+li {
+	font-size: 1.1em;
+}
