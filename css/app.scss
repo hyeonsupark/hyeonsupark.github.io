@@ -1,28 +1,53 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 * {
-	background-color: #000;
-	color: #fff;
-	font-family: 'Ubuntu', sans-serif;
-	line-height: 1.3;
+    font-family: 'Spoqa Han Sans', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+
+
 
 body {
-	margin: 0px;
-	padding: 0px;
-	.content {
-		padding-right: 200px;
-	}
+    .container {
+        margin: 0 auto;
+        max-width: 40rem;
+        header {
+            .title {
+                font-size: 3rem;
+                line-height: 5rem;
+            }
+            .info {
+                line-height: 1.8rem;
+                padding: 0.8rem;
+            }
+        }
 
-	#side-bar {
-		position: fixed;
-		top: 0;
-		right: 0;
-		width: 200px;
-		height: 100%;
-		background-color: #fff;
-		text-align: center;
-		z-index: 100;
-	}
-}
-li {
-	font-size: 1.1em;
+        section {
+            padding: 0.6rem 0.8rem;
+            article {
+                ul {
+                    line-height: 1.8rem;
+                }
+            }
+        }
+
+        footer {
+            padding: 0.4rem 0;
+            text-align: center;            
+            i {
+                font-size: 2rem;
+                margin: 0 0.5rem;
+            }
+        }
+    }
 }
