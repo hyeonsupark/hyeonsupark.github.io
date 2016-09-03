@@ -1,6 +1,25 @@
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 * {
-  font-family: 'Spoqa Han Sans', sans-serif; }
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0; }
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 4rem; }
+
+h2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 1.3rem 0; }
+
+p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #777777; }
+
+ul, li {
+  list-style: none; }
 
 a {
   text-decoration: none; }
@@ -11,24 +30,66 @@ a:link, a:visited {
 a:hover {
   color: red; }
 
+.blue-bar {
+  background: #0022ff; }
+  .blue-bar.big {
+    width: 18rem;
+    height: 1.5rem; }
+  .blue-bar.small {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 0.8rem;
+    top: -1.1rem;
+    z-index: -1;
+    padding-right: 0.5rem; }
+
 body .container {
   margin: 0 auto;
   max-width: 40rem; }
-  body .container header .title {
-    font-size: 3rem;
-    line-height: 5rem; }
+  body .container header .title-wrapper {
+    margin-top: 1rem;
+    margin-left: 7.3rem;
+    position: relative;
+    z-index: 1; }
+    body .container header .title-wrapper .title {
+      margin-top: -0.5rem;
+      font-size: 4.5rem;
+      font-weight: bold; }
   body .container header .info {
-    line-height: 1.8rem;
-    padding: 0.8rem; }
-  body .container section {
-    padding: 0.6rem 0.8rem; }
-    body .container section article ul {
-      line-height: 1.8rem; }
-  body .container footer {
-    padding: 0.4rem 0;
-    text-align: center; }
-    body .container footer i {
-      font-size: 2rem;
-      margin: 0 0.5rem; }
+    display: flex;
+    margin-top: -1.7rem; }
+    body .container header .info img.profile {
+      width: 9.3rem;
+      height: 100%; }
+    body .container header .info .right {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+      margin-top: 4rem; }
+      body .container header .info .right .job {
+        font-size: 2rem;
+        font-weight: bold; }
+      body .container header .info .right .social-icons {
+        display: flex;
+        flex: 1;
+        align-items: flex-end; }
+        body .container header .info .right .social-icons i {
+          margin: 0 0.3rem;
+          font-size: 1.3rem; }
+  body .container section article .article-header {
+    display: inline-block; }
+    body .container section article .article-header h1 {
+      margin-left: -0.1rem; }
+  body .container section article.skill-set .skill-wrapper {
+    display: flex; }
+    body .container section article.skill-set .skill-wrapper .col {
+      flex: 1; }
+      body .container section article.skill-set .skill-wrapper .col .list p::before {
+        content: "_ "; }
+  body .container section article.work p::before {
+    content: "_ "; }
+  body .container section .whitespace {
+    height: 3rem; }
 
 /*# sourceMappingURL=app.css.map */
