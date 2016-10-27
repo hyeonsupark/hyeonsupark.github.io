@@ -46,7 +46,7 @@ a:hover {
 
 body .container {
   margin: 0 auto;
-  max-width: 40rem; }
+  width: 40rem; }
   body .container header .title-wrapper {
     margin-top: 1rem;
     margin-left: 7.3rem;
