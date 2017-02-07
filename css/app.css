@@ -77,6 +77,15 @@ body .container {
         body .container header .info .right .social-icons i {
           margin: 0 0.3rem;
           font-size: 1.3rem; }
+    body .container header .info #no-name {
+      display: flex;
+      flex-direction: column-reverse;
+      flex: 0.8;
+      font-size: 4rem;
+      text-align: right;
+      color: #0022ff;
+      letter-spacing: 0.5rem;
+      font-weight: 500; }
   body .container section article .article-header {
     display: inline-block; }
     body .container section article .article-header h1 {

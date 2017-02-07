@@ -102,6 +102,17 @@ body {
                         }
                     }
                 }
+                #no-name {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    flex: 0.8;
+                    font-size: 4rem;
+                    text-align: right;
+                    color: #0022ff;
+                    letter-spacing: 0.5rem;
+                    font-weight: 500;
+
+                }
             }
         }
 
