@@ -4,17 +4,14 @@
   margin: 0; }
 
 h1 {
-  font-size: 1.6rem;
   font-weight: bold;
   margin-top: 4rem; }
 
 h2 {
-  font-size: 0.9rem;
   font-weight: bold;
   margin: 1.3rem 0; }
 
 p {
-  font-size: 0.9rem;
   font-weight: 300;
   color: #777777; }
 
@@ -44,61 +41,57 @@ a:hover {
     z-index: -1;
     padding-right: 0.5rem; }
 
-body .container {
-  margin: 0 auto;
-  width: 40rem; }
-  body .container header .title-wrapper {
-    margin-top: 1rem;
-    margin-left: 7.3rem;
-    position: relative;
-    z-index: 1; }
-    body .container header .title-wrapper .title {
-      margin-top: -0.5rem;
-      font-size: 4.5rem;
-      font-weight: bold; }
-  body .container header .info {
-    display: flex;
-    margin-top: -1.7rem; }
-    body .container header .info img.profile {
-      width: 9.3rem;
-      height: 100%; }
-    body .container header .info .right {
-      display: flex;
-      flex-direction: column;
-      margin-left: 2rem;
-      margin-top: 4rem; }
-      body .container header .info .right .job {
-        font-size: 2rem;
-        font-weight: bold; }
-      body .container header .info .right .social-icons {
-        display: flex;
-        flex: 1;
-        align-items: flex-end; }
-        body .container header .info .right .social-icons i {
-          margin: 0 0.3rem;
-          font-size: 1.3rem; }
-    body .container header .info #no-name {
-      display: flex;
-      flex-direction: column-reverse;
-      flex: 0.8;
-      font-size: 4rem;
-      text-align: right;
-      color: #0022ff;
-      letter-spacing: 0.5rem;
-      font-weight: 500; }
-  body .container section article .article-header {
-    display: inline-block; }
-    body .container section article .article-header h1 {
-      margin-left: -0.1rem; }
-  body .container section article.skill-set .skill-wrapper {
-    display: flex; }
-    body .container section article.skill-set .skill-wrapper .col {
-      flex: 1; }
-      body .container section article.skill-set .skill-wrapper .col .list p::before {
-        content: "_ "; }
-  body .container section article.work p::before {
-    content: "_ "; }
-  body .container section .whitespace {
-    height: 3rem; }
+body .container header .title-wrapper {
+  margin-top: 1rem;
+  margin-left: 7.3rem;
+  position: relative;
+  z-index: 1; }
+  body .container header .title-wrapper .title {
+    margin-top: -0.5rem;
+    font-size: 4.5rem;
+    font-weight: bold; }
 
-/*# sourceMappingURL=app.css.map */
+body .container header .info {
+  display: flex;
+  margin-top: -1.7rem; }
+  body .container header .info img.profile {
+    width: 9.3rem;
+    height: 100%; }
+  body .container header .info .right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 4rem; }
+    body .container header .info .right .job {
+      font-size: 2rem;
+      font-weight: bold; }
+    body .container header .info .right .social-icons {
+      display: flex;
+      flex: 1;
+      align-items: flex-end; }
+      body .container header .info .right .social-icons i {
+        margin: 0 0.3rem;
+        font-size: 1.3rem; }
+  body .container header .info #no-name {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 0.8;
+    font-size: 4rem;
+    text-align: right;
+    color: #0022ff;
+    letter-spacing: 0.5rem;
+    font-weight: 500; }
+
+body .container .section-header {
+  display: inline-block; }
+  body .container .section-header h1 {
+    margin-left: -0.1rem; }
+
+body .container section.skill-set .skill-wrapper p::before {
+  content: "_ "; }
+
+body .container section.work p::before {
+  content: "_ "; }
+
+body .container .whitespace {
+  height: 3rem; }
